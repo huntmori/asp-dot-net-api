@@ -1,0 +1,85 @@
+﻿## [Visual Studio / Rider / .NET]
+# 빌드 결과물 (Build results)
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# .NET Core 및 Rider 설정 (Project specific)
+.net/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Visual Studio 및 Rider 작업 파일 (IDE specific)
+.vs/
+.idea/
+*.user
+*.userosscache
+*.sln.docattachments
+*.suo
+*.user
+*.userosscache
+*.sln.docattachments
+*.patch
+*.diff
+
+# Rider 관련 추가
+*.sln.DotSettings.user
+
+# 테스트 결과 (Test results)
+TestResults/
+*.trx
+*.vstest
+
+## [Publish]
+# 배포 폴더 (Publish output)
+publish/
+**/App_Data/jobs/
+**/App_Data/config/
+
+## [User-specific files]
+# 로컬 설정 및 비밀정보 (Secrets & Local Settings)
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docattachments
+appsettings.Development.json
+appsettings.Local.json
+
+# .NET Secret Manager
+# (보통 사용자 프로필 폴더에 저장되지만, 프로젝트 내에 생성될 경우 대비)
+secrets.json
+
+## [OS specific]
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+## [Package Managers]
+# NuGet Packages
+*.nupkg
+**/packages/*
+!**/packages/build/
+# 전역 패키지 폴더는 보통 프로젝트 밖에 위치하므로 생략 가능
+
+## [Web / Frontend]
+# node_modules (프론트엔드 프레임워크 사용 시)
+node_modules/
+.npm/
